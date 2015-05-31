@@ -14,5 +14,5 @@ ALTER TABLE tagr1332.Sense ADD PRIMARY KEY (sense_number);
 
 -- Foreign key creation
 
-ALTER TABLE tagr1332.Sense ADD FOREIGN KEY is_headword(headword)
+ALTER TABLE tagr1332.Sense ADD FOREIGN KEY is_headword (headword)
 REFERENCES tagr1332.Word ON DELETE CASCADE ON UPDATE RESTRICT;
