@@ -2,4 +2,15 @@ INSERT INTO tagr1332.Sense (pronunciation, definition, part_of_speech, headword)
 ('hous', 'a building for human habitation, especially one that is lived in by a family or small group of people.', 'noun', 'house'),
 ('houz', 'provide (a person or animal) with shelter or living quarters.', 'verb', 'house'),
 ('CHānj', 'make or become different.', 'verb', 'change'),
-('CHānj', 'coins as opposed to paper currency.', 'noun', 'change');
+('CHānj', 'coins as opposed to paper currency.', 'noun', 'change'),
+('ˈjo͝orē', 'a body of people (typically twelve in number) sworn to give a verdict in a legal case on the basis of evidence submitted to them in court.', 'noun', 'jury'),
+('ˈjo͝orē', 'judge (an art or craft exhibition or exhibit).', 'verb', 'jury'),
+('ˈbālif', 'a person who performs certain actions under legal authority, in particular.', 'noun', 'bailiff'),
+('jəj', 'a public official appointed to decide cases in a court of law.', 'noun', 'judge'),
+('ˈkôrtˌhous', 'a building in which a judicial court is held.', 'noun', 'courthouse'),
+('ˈärɡyəmənt', 'an exchange of diverging or opposite views, typically a heated or angry one.', 'noun', 'argument'),
+('ˈärɡyəmənt', 'a reason or set of reasons given with the aim of persuading others that an action or idea is right or wrong.', 'noun', 'argument'),
+('ˈsenət', 'any of various legislative or governing bodies, in particular.', 'noun', 'senate'),
+('tranˈzistər', 'a semiconductor device with three connections, capable of amplification in addition to rectification.', 'noun', 'transistor'),
+('ˈpräˌsesər', 'a machine that processes something.', 'noun', 'processor'),
+('ˈməT͟Hərˌbôrd', 'a printed circuit board containing the principal components of a computer or other device, with connectors into which other circuit boards can be slotted.', 'noun', 'motherboard');
