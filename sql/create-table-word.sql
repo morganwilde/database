@@ -1,3 +1,5 @@
+DROP TABLE tagr1332.Word;
+
 CREATE TABLE tagr1332.Word
 (
     title               VARCHAR(32)     NOT NULL,
