@@ -9,4 +9,4 @@ CREATE VIEW tagr1332.CardUnanswered
         bucket,
         question
     FROM CardWithSenses
-    WHERE answered_correctly = NULL;
+    WHERE answered_correctly IS NULL;
