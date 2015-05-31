@@ -4,6 +4,7 @@ INSERT INTO tagr1332.Word (title) VALUES
 ('jury'),
 ('bailiff'),
 ('courthouse'),
+('house'),
 ('argument'),
 ('senate'),
 ('judge'),
