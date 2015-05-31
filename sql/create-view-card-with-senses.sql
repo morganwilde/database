@@ -1,3 +1,5 @@
+DROP VIEW tagr1332.CardWithSenses;
+
 CREATE VIEW tagr1332.CardWithSenses
 (card_number, option_1, option_2, option_3, sense, bucket, question, answered_correctly)
     AS SELECT
