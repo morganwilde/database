@@ -1,4 +1,4 @@
-DROP TABLE tagr1332.Bucket;
+DROP TABLE IF EXISTS tagr1332.Bucket CASCADE;
 
 CREATE TABLE tagr1332.Bucket
 (
