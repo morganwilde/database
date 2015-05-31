@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Database</title>
+    <style type="text/css">
+        body {width: 620px; margin: auto;}
+        img {width: 600px; border: 1px solid #bdc3c7; padding: 10px; background-color: #ecf0f1; display: block; margin: 10px 0px;}
+    </style>
+</head>
+<body>
+    <h2>Introduction</h2>
+    <p>
+        This is a database for storing english language teaching flash cards. Cards are organised in buckets. Each card is based on one sense (the correct answer) and three options (one of which is equal to the sense). Also, they have a question that has to be answered using one of the three options.
+    </p>
+    <p>
+        Senses represent one meaning (sense) of an English word. For example the word "house" has 3 senses:
+        <ul>
+            <li>noun - a building for human habitation.</li>
+            <li>adjective - of or relating to a business, institution, or society.</li>
+            <li>verb - provide (a person or animal) with shelter or living quarters.</li>
+        </ul>
+    </p>
+    <h3>ER diagram</h3>
+    <img src="diagram-er.svg">
+    <h3>Relational diagram</h3>
+    <img src="diagram-relational.svg">
+
+    <h2>Database creation</h2>
+    <h3>Tables</h3>
+    <ul>
+        <li>Bucket</li>
+        <li>Card</li>
+        <li>Sense</li>
+        <li>Word</li>
+    </ul>
+</body>
+</html>
