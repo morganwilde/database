@@ -9,4 +9,5 @@ INSERT INTO tagr1332.Word (title) VALUES
 ('judge'),
 ('processor'),
 ('transistor'),
-('motherboard');
+('motherboard'),
+('courthouse');
