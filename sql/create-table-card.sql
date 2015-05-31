@@ -12,7 +12,7 @@ CREATE TABLE tagr1332.Card
     answered_correctly  BOOLEAN
 );
 
-# Primary key creation
+-- Primary key creation
 
 ALTER TABLE tagr1332.Card ADD PRIMARY KEY (card_number)
 GENERATED ALWAYS AS IDENTITY

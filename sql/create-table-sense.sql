@@ -8,7 +8,7 @@ CREATE TABLE tagr1332.Sense
     headword            VARCHAR(32)     NOT NULL
 );
 
-# Primary key creation
+-- Primary key creation
 
 ALTER TABLE tagr1332.Sense ADD PRIMARY KEY (sense_number)
 GENERATED ALWAYS AS IDENTITY
