@@ -3,6 +3,7 @@ DROP TABLE IF EXISTS tagr1332.Sense CASCADE;
 CREATE TABLE tagr1332.Sense
 (
     sense_number        SERIAL          NOT NULL,
+    pronunciation       VARCHAR(32),
     definition          VARCHAR(280)    NOT NULL,
     part_of_speech      VARCHAR(32)     NOT NULL,
     headword            VARCHAR(32)     NOT NULL
