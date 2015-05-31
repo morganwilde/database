@@ -1,4 +1,4 @@
-DROP VIEW tagr1332.CardUnanswered CASCADE;
+DROP VIEW IF EXISTS tagr1332.CardUnanswered CASCADE;
 
 CREATE VIEW tagr1332.CardUnanswered
 (card_number, option_1, option_2, option_3, sense, bucket, question)
@@ -10,5 +10,5 @@ CREATE VIEW tagr1332.CardUnanswered
         sense,
         bucket,
         question
-    FROM CardWithSenses
+    FROM tagr1332.CardWithSenses
     WHERE answered_correctly IS NULL;

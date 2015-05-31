@@ -1,11 +1,14 @@
 package com.company;
 
+import com.company.Model.Database;
+
 import java.sql.*;
-import java.util.Scanner;
 
 public class Main {
-
     public static void main(String[] args) {
-        System.out.println("buyll");
+
+        UserInterface userInterface = new UserInterface();
+        userInterface.runLoop();
+
     }
 }
