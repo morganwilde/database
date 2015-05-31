@@ -1,4 +1,4 @@
-DROP VIEW tagr1332.CardUnanswered;
+DROP VIEW tagr1332.CardUnanswered CASCADE;
 
 CREATE VIEW tagr1332.CardUnanswered
 (card_number, option_1, option_2, option_3, sense, bucket, question)
