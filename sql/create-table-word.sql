@@ -5,6 +5,6 @@ CREATE TABLE tagr1332.Word
     audio               VARCHAR(64)
 );
 
-# Primary key creation
+-- Primary key creation
 
 ALTER TABLE tagr1332.Word ADD PRIMARY KEY (title);
