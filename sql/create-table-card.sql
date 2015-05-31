@@ -1,3 +1,5 @@
+DROP TABLE tagr1332.Card;
+
 CREATE TABLE tagr1332.Card
 (
     card_number         INTEGER         NOT NULL,

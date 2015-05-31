@@ -1,3 +1,5 @@
+DROP TABLE tagr1332.Bucket;
+
 CREATE TABLE tagr1332.Bucket
 (
     category_name       VARCHAR(64)     NOT NULL

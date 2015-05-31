@@ -1,3 +1,5 @@
+DROP TABLE tagr1332.Sense;
+
 CREATE TABLE tagr1332.Sense
 (
     sense_number        INTEGER         NOT NULL,
